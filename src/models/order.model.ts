@@ -1,8 +1,9 @@
+import { RowDataPacket } from 'mysql2';
 import { Order } from '../interfaces';
 import connection from './connection';
 
 async function getAll(): Promise<Order[]> {
-  const [orders] = await connection.execute(
+  const [orders] = await connection.execute<RowDataPacket[]>(
     `SELECT O.id AS "id", 
     O.user_id AS "userId", 
     JSON_ARRAYAGG(P.id) AS productsIds

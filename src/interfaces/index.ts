@@ -23,3 +23,13 @@ export interface Order {
   userId: number;
   productsId: number[];
 }
+
+export interface ReturnReq {
+  status: number;
+  message: string;
+}
+
+export interface ReturnReqLogin {
+  status: number;
+  data: string;
+}
