@@ -17,9 +17,11 @@ MySQL
 # Contato
 Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-Nome: Gabriel Fonseca
-LinkedIn: https://www.linkedin.com/in/gabriel-fonseca-tech/
-Email: Gabriel.Fonseca@live.com
+**Nome: Gabriel Fonseca**
+
+**LinkedIn:** https://www.linkedin.com/in/gabriel-fonseca-tech/
+
+**Email:** Gabriel.Fonseca@live.com
 
 Espero que este README seja útil para o desenvolvimento do projeto TrybeSmith.
 
